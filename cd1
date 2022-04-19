@@ -1,0 +1,8 @@
+while wait() do
+	if game.Players.LocalPlayer.Character.CD1.Value == 1 then
+	game.Players.LocalPlayer.Character.CD1.Value = 2
+	wait(15)
+	game.Players.LocalPlayer.Character.CD1.Value = 0
+		game.Players.LocalPlayer.PlayerGui.UI.Ui.MoveDebounceShower.Moves1[1].Activated.Value = false
+end
+end
